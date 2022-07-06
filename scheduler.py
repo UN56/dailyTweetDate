@@ -3,7 +3,7 @@ import time
 import os 
 
 def job():
-    os.system("python main.py")
+    os.system("python ./main.py/")
 
 schedule.every().day.at("00:01").do(job)
 
