@@ -3,6 +3,11 @@ tweets daily about date information on GMT time
 
 ## Usage
 
+clone repo  
+`git clone https://github.com/UN56/dailyTweetDate.git`
+
+`cd dailyTweetDate`
+
 run  
 `pip install -r requirements.txt`  
 
