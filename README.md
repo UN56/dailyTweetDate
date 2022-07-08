@@ -16,9 +16,9 @@ on twitter developer dashboard activate `OAuth 1.0a`
 create `.env` file and put your twitter token  
 `API_KEY = "Your-Api-Key"`  
 `API_KEY_SECRET = "Your-Secret-Api-KEY"`  
-`BEARER_TOKEN = "Yout-Bearer-token"`  
-`ACCSESS_TOKEN = "Your-Acsess-Token"`  
-`ACCSESS_TOKEN_SECRET = "Your-Secret-Acsess-Token"`  
+`BEARER_TOKEN = "Your-Bearer-token"`  
+`ACCSESS_TOKEN = "Your-Accsess-Token"`  
+`ACCSESS_TOKEN_SECRET = "Your-Secret-Accsess-Token"`  
 
 if you run on a server, run  
 `python scheduler.py` or use DockerFile  
