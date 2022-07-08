@@ -1,5 +1,5 @@
 # dailyTweetDate
-tweets daily about date information on GMT time  
+tweets daily about date information on GMT  
 
 ## Usage
 
@@ -11,7 +11,7 @@ clone repo
 run  
 `pip install -r requirements.txt`  
 
-on twitter developer dashboard activate `OAuth 1.0a`  
+on the Twitter developer dashboard activate `OAuth 1.0a`  
 
 create `.env` file and put your twitter token  
 `API_KEY = "Your-Api-Key"`  
