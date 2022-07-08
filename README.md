@@ -1,6 +1,8 @@
 # dailyTweetDate
 tweets daily about date information on GMT  
 
+check the [demo](https://twitter.com/DailyDateBot)
+
 ## Usage
 
 clone repo  
