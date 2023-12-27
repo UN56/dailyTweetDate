@@ -18,7 +18,7 @@ dayCount = datetime.date(nextYear - 1, 12, 31) - datetime.date.today()
 daysLeft = str(dayCount).replace(", 0:00:00","")
 
 dayLeftYear = f"{daysLeft} days left to {nextYear}!"
-if daysLeft == 0:
+if str(daysLeft) == '0:00:00':
     daysLeftYear = "Happy New Year 🥳"
 
 response = client.create_tweet(text=f"Today Date Is {str(now)} (GMT), and {dayLeftYear}")
